@@ -4,6 +4,7 @@
 # }
 
 
+
 resource "aws_iam_role" "arc_for_server_ssm_role" {
   name               = var.ArcForServerEC2SSMRoleName
   assume_role_policy = jsonencode({
